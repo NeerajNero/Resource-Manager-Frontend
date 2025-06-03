@@ -3,7 +3,7 @@ import axios from "axios";
 import { getToken } from "../store/useAuthStore";
 
 const apiClient = axios.create({
-  baseURL: "https://resource-manager-backend-u0rg.onrender.com", // adjust if your backend uses a different host/port
+  baseURL: "https://resource-manager-backend.vercel.app/api", // adjust if your backend uses a different host/port
 });
 
 // Automatically attach the JWT to every request, if present
